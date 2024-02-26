@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kserve-controller-28
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-controller/kserve-controller-28@sha256:bfd62a45a52d54405eace0836a0977c42b548dc7e27fd660bac3db43b1436746
+        name: container-image
+        resources: {}
+status: {}
