@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-controller-28
     spec:
       containers:
-      - image: quay.io/modh/kserve-controller@sha256:64c09b931de52dde0860103d232536de07f3e2f179a027e9e4bf51d6c60eaeeb
+      - image: quay.io/modh/kserve-controller@sha256:291b20390e2fa9d4bf5df578ad9ca54e7433ea85c9e23fe35a630a243a0e5ff6
         imagePullPolicy: Always
         name: container-image
         ports:
